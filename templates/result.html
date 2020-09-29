@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+					<!--{% if prediction_text==0 %}
+						<h1> This is not Pulsar Star </h1>
+						<img class="gif" width='100' height='100' style='margin-left: auto; margin-right:auto;' src="{{ url_for('static', filename='safe.gif') }}" alt="SPAM Image">
+					{% elif prediction_text==1 %}
+						<h1> This is Pulsar Star</h1>
+						<img class="gif" width='100' height='100' style='margin-left: auto; margin-right:auto;'  src="{{ url_for('static', filename='cancer.gif') }}" alt="Not a spam image">
+					{% endif %}-->
+
+					<h1>Your chances of admission in the college are {{prediction_text}} %</h1>
+
+{% endblock %}
+	

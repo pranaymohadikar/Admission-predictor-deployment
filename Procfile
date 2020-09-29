@@ -1,0 +1,1 @@
+web: gunicorn admission_predictor:app

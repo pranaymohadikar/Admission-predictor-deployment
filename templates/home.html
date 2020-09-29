@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+
+	
+	<div>
+
+		
+			<form action="{{url_for('predict')}}" method='POST'>
+
+				<b>GRE Score: <input type="number" step='any' name='GRE Score'><br><br></b>
+				<b>TOEFL Score: <input type="number" step='any' name='TOEFL Score'><br><br></b>
+				<b>University Rating: <input type="number" step='any' name='University Rating'><br><br></b>
+				<b>SOP: <input type="number" step='any' name='SOP'><br><br></b>
+				<b>LOR: <input type="number" step='any' name='LOR'><br><br></b>
+				<b>CGPA: <input type="number" step='any' name='CGPA'><br><br></b>
+				<b>Research: <input type="number" step='any' name='Research'><br><br></b>
+
+		
+
+			<input type="submit" name="ANSWER", value='submit'>
+
+			</form>
+	</div>		
+{% endblock %}
