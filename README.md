@@ -7,4 +7,4 @@ This repository contains all the files related to the breast cancer predictor ap
 - You can view the deployed app [https://admission-predictor-v1.herokuapp.com/](https://admission-predictor-v1.herokuapp.com/)
 - Here is the glimpse of webapp
 
-![1]
+![1](https://github.com/pranaymohadikar/Admission-predictor-deployment/blob/master/static/webapp.PNG)
